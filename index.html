@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount">
+                <p>Enter amount</p>
+                <input value="100" type="text">
+
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from"></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png">
+                        <select name="to"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg"> 1 USD = 120 BDT</div>
+            <button> Get Exchnage Rate</button>
+        </form>
+    </div>
+
+    <script src="./code.js"></script>
+    <script src="app.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/c584c820c1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
